@@ -16,7 +16,7 @@ class PaperBall{
         push();
         translate(this.body.position.x, this.body.position.y);
         rotate(angle);
-        rectMode(CENTER)
+        ellipseMode(RADIUS);
         circle(100,80,20);  
         pop();
       }
