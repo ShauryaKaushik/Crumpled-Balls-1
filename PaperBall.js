@@ -17,7 +17,7 @@ class PaperBall{
         translate(this.body.position.x, this.body.position.y);
         rotate(angle);
         rectMode(CENTER)
-        circle(30,30,20);  
+        circle(100,80,20);  
         pop();
       }
 }
