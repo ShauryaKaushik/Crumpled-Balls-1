@@ -15,7 +15,7 @@ class PaperBall{
         var angle = this.body.angle;
         push();
         translate(this.body.position.x, this.body.position.y);
-        circle(100,80,20);  
+        ellipseMode(RADIUS); 
         pop();
       }
 }
