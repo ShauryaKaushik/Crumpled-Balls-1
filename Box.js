@@ -19,7 +19,7 @@ class Box {
       translate(pos.x,pos.y)
       rotate(angle)
       rectMode(CENTER); 
-      fill("aqua");
+      fill("green");
       rect(0,0, this.width, this.height);
       pop();
     }
