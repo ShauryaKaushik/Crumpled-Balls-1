@@ -16,7 +16,7 @@ class PaperBall{
         push();
         translate(this.body.position.x, this.body.position.y);
         ellipseMode(RADIUS);
-        fill("purple");
+        fill("aqua");
         ellipse(100,100,30,30);
         pop();
       }
