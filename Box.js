@@ -1,7 +1,7 @@
 class Box {
     constructor(x, y, width, height) {
       var options = {
-          'isStatic' : true,
+          'isStatic' :true,
           'restitution':0.8,
           'friction':1.0,
           'density':1.0
@@ -19,9 +19,8 @@ class Box {
       translate(pos.x,pos.y)
       rotate(angle)
       rectMode(CENTER);
-     strokeWeight(4);
-    stroke("green"); 
-      fill(255);
+     strokeWeight(4); 
+      fill('rgb(0,255,0)');
       rect(0,0, this.width, this.height);
       pop();
     }
