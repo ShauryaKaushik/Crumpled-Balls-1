@@ -20,7 +20,7 @@ class Box {
       rotate(angle)
       rectMode(CENTER);
       strokeWeight(4);
-      fill("green");
+      fill("aqua");
       rect(0,0, this.width, this.height);
       pop();
     }
