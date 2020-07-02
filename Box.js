@@ -18,7 +18,8 @@ class Box {
       push()
       translate(pos.x,pos.y)
       rotate(angle)
-      rectMode(CENTER); 
+      rectMode(CENTER);
+      strokeWeight(4);
       fill("green");
       rect(0,0, this.width, this.height);
       pop();
