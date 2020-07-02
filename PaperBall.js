@@ -4,7 +4,7 @@ class PaperBall{
             "isStatic" : true,
             'restitution':0.8,
             'friction':0.5,
-            'density':1.2
+            'density':0
         }
         this.body = Bodies.circle(x, y,radius);
         this.width = width;
