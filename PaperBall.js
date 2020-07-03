@@ -6,7 +6,7 @@ class PaperBall{
             'friction':0.5,
             'density':1.5
         }
-        this.body = Bodies.circle(x, y,radius);
+        this.body = Bodies.circle(x, y,radius,options);
         this.width = width;
         this.height = height;
         World.add(world, this.body);
@@ -18,7 +18,7 @@ class PaperBall{
         ellipseMode(RADIUS);
         strokeWeight(5);  
         fill("blue");
-        ellipse(100,100,30,30);
+        ellipse(0,0,30,30);
         pop();
       }
 }
