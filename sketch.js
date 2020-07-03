@@ -22,7 +22,7 @@ function setup(){
     boxStick2 = new Box(520,340,15,80);
 
 
-    ground = Bodies.rectangle(200,390,200,50,ground_options);
+    ground = Bodies.rectangle(400,390,800,50,ground_options);
     World.add(world,ground);
 
 }
@@ -31,7 +31,7 @@ function draw(){
     background(0);
     Engine.update(engine);
     rectMode(CENTER);
-    rect(ground.position.x,ground.position.y,1300,20);
+    rect(ground.position.x,ground.position.y,800,50);
     
     paperBall.display();    
     
