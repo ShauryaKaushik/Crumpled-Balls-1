@@ -16,7 +16,7 @@ function setup(){
         isStatic: true
     }
 
-    paperBall = new PaperBall(200,190,20);
+    paperBall = new PaperBall(70,190,20);
     
     boxStick1 = new Box(635,340,15,80);
     boxStick2 = new Box(520,340,15,80);
