@@ -37,7 +37,7 @@ function draw(){
     
     boxStick1.display();
     boxStick2.display();
-    boxstick3.display();
+    boxStick3.display();
     
 }
 
