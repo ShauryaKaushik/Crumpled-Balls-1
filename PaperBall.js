@@ -2,7 +2,7 @@ class PaperBall{
     constructor(x, y,radius) {
         var options = {
             "isStatic" : false,
-            'restitution':1.5,
+            'restitution':0,
             'friction':0.5,
             'density':1.5
         }
