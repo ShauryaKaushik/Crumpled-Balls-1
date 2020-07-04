@@ -18,8 +18,8 @@ function setup(){
 
     paperBall = new PaperBall(70,100,20);
     
-    boxStick1 = new Box(635,310,15,80);
-    boxStick2 = new Box(520,310,15,80);
+    boxStick1 = new Box(635,365,15,80);
+    boxStick2 = new Box(520,365,15,80);
     boxStick3 = new Box(575,370,170,10); 
 
     ground = Bodies.rectangle(400,390,800,50,ground_options);
