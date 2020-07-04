@@ -9,8 +9,7 @@ class PaperBall{
         this.body = Bodies.circle(x, y,radius,options);
         this.width = width;
         this.height = height;
-        World.add(world, this.body);
-        console.log(paperBall);     
+        World.add(world, this.body);     
       }
       display(){
         var angle = this.body.angle;
