@@ -10,6 +10,7 @@ class PaperBall{
         this.width = width;
         this.height = height;
         World.add(world, this.body);
+        console.log(paperBall);     
       }
       display(){
         var angle = this.body.angle;
@@ -20,6 +21,5 @@ class PaperBall{
         fill("blue");
         ellipse(0,0,30,30);
         pop();
-          console.log(paperBall);
       }
 }
