@@ -20,5 +20,6 @@ class PaperBall{
         fill("blue");
         ellipse(0,0,30,30);
         pop();
+          console.log(paperBall);
       }
 }
