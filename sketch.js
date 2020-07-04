@@ -4,7 +4,7 @@ const Bodies = Matter.Bodies;
 
 var engine, world; 
 var ground;
-var boxStick1,boxStick2;
+var boxStick1,boxStick2,boxStick3;
 
 function setup(){
     var canvas = createCanvas(800,400);
@@ -18,9 +18,9 @@ function setup(){
 
     paperBall = new PaperBall(70,100,20);
     
-    boxStick1 = new Box(635,340,15,80);
-    boxStick2 = new Box(520,340,15,80);
-
+    boxStick1 = new Box(635,310,15,80);
+    boxStick2 = new Box(520,310,15,80);
+    boxStick3 = new Box(595,340,80,10); 
 
     ground = Bodies.rectangle(400,390,800,50,ground_options);
     World.add(world,ground);
@@ -37,6 +37,7 @@ function draw(){
     
     boxStick1.display();
     boxStick2.display();
+    boxstick3.display();
     
 }
 
