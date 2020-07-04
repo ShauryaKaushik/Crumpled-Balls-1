@@ -20,7 +20,7 @@ function setup(){
     
     boxStick1 = new Box(635,310,15,80);
     boxStick2 = new Box(520,310,15,80);
-    boxStick3 = new Box(595,360,100,10); 
+    boxStick3 = new Box(575,370,170,10); 
 
     ground = Bodies.rectangle(400,390,800,50,ground_options);
     World.add(world,ground);
