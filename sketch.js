@@ -48,7 +48,7 @@ function draw(){
 
 if(keyCode === UP_ARROW){
    
-  paperBall.setVelocity ( 85,-85 )
+  paperBall.setVelocity ( 0,-85 )
    }
 
 
