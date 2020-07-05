@@ -39,6 +39,8 @@ function draw(){
     boxStick2.display();
     boxStick3.display();
     
+    keyPressed();
+    
 }
 
  function keyPressed()
