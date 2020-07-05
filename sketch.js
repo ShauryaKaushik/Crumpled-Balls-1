@@ -48,7 +48,7 @@ function draw(){
 
 if(keyCode === UP_ARROW){
    
-  paperBall.setVelocity ( 0,-85 )
+  Matter.Body.applyForce(paperBall.body,paperBall.body.position,{x : 85 , y : -85})
    }
 
 
