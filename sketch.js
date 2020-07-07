@@ -48,7 +48,7 @@ function draw(){
 
 if(keyCode === UP_ARROW){
    
-  Matter.Body.applyForce(paperBall.body,paperBall.body.position,{x : 5 , y : -15})
+  Matter.Body.applyForce(paperBall.body,paperBall.body.position,{x : 20 , y : -15})
    }
     
 
